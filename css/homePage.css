@@ -1,0 +1,42 @@
+
+/************************************************************************************/
+
+
+
+
+div#type-delivery{
+	text-align: center;  
+}
+div#type-delivery > span:first-child, div#type-delivery >button{    
+	font-size: 2em;
+	text-transform: uppercase;
+}
+div#type-delivery > span:nth-of-type(2){
+	font-family: 'charm';
+	color: #a66a59;
+}
+div#type-delivery >button{
+	background-color: #ce9586;
+	border-radius: 5px;
+	color: white;
+}
+div#type-delivery >button:hover{
+	background-color: #a66a59;
+}
+div#type-delivery >*{    
+	margin-right: 1em;
+}
+
+div#body-container{	
+	margin: 0px;
+	padding: 0px;
+}
+main#body-main{	
+	background-color: white;
+}
+
+
+
+
+
+
