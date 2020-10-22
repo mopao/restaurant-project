@@ -27,7 +27,7 @@ body{
 footer{
 	clear: both;		
 	position: relative;
-	top:25em;/* to be commented */
+	/* top:25em; to be commented */
 }
 footer div#copyright{
 	border-top: 2px solid black;
@@ -147,7 +147,6 @@ nav#main-menu ul > li {
 	display: inline-block;
 	list-style-type: none; 
 	vertical-align:top;
-
 }
 nav#main-menu ul > li:not(:last-child) {	
 	padding-right: 2em;

@@ -5,7 +5,8 @@
 
 
 div#type-delivery{
-	text-align: center;  
+	text-align: center; 
+	margin: 2em 0;
 }
 div#type-delivery > span:first-child, div#type-delivery >button{    
 	font-size: 2em;
@@ -33,6 +34,33 @@ div#body-container{
 }
 main#body-main{	
 	background-color: white;
+}
+.row{
+	width: 100%;
+}
+main section > div.row:nth-of-type(2){
+  background-image: url("../images/pizza-veg-main1.jpg");
+  background-color: #e8dede;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-order {
+	text-transform: uppercase;
+	background-color: #ce9586;
+	border-radius: 5px;
+	font-size: 1em;
+	position: relative;
+	color: white;
+	padding: 0.5em 0.8em;
+
+	
+}
+main section > div.row:nth-of-type(2) div:last-of-type {
+	text-align: center;
+	bottom: -85%;
+	position: relative;
 }
 
 
