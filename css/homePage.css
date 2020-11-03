@@ -11,9 +11,11 @@ div#type-delivery{
 div#type-delivery > span:first-child, div#type-delivery >button{    
 	font-size: 2em;
 	text-transform: uppercase;
+	font-family: "charm";
 }
+
+
 div#type-delivery > span:nth-of-type(2){
-	font-family: 'charm';
 	color: #a66a59;
 }
 div#type-delivery >button{
@@ -38,30 +40,26 @@ main#body-main{
 .row{
 	width: 100%;
 }
-main section > div.row:nth-of-type(2){
-  background-image: url("../images/pizza-veg-main1.jpg");
-  background-color: #e8dede;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+main section > div#slogan-wrapper{
+	background-image: url("../images/pizza-veg-main1.jpg");
+	background-color: #e8dede;
+	height: 21em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;    
 }
-.btn-order {
+main section > div#slogan-wrapper > p{
+	display: inline-block;
+	font-size: 4em;
+	color: aliceblue;
+	text-align: center;
+	margin-top: 1em;
 	text-transform: uppercase;
-	background-color: #ce9586;
-	border-radius: 5px;
-	font-size: 1em;
-	position: relative;
-	color: white;
-	padding: 0.5em 0.8em;
-
+	
 	
 }
-main section > div.row:nth-of-type(2) div:last-of-type {
-	text-align: center;
-	bottom: -85%;
-	position: relative;
-}
+
+
 
 
 

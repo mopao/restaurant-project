@@ -1,7 +1,7 @@
 
 /* ************************general style *******************************************/
-.serif {
-	font-family: "Times New Roman", Times, serif;
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -87,18 +87,11 @@ footer > section div:last-child{
 
 	display: inline-block;	
 }
-#banner-container > div:first-child{
-	width: 25%;
-	float: left;
-	margin-right: 2%;
-	border: 3px solid lightgray;
-	height: 10em;
 
-}
-#banner-container > div:not(:first-child){
-	width: 73%;
+#banner-container {
+	width: 100%;
 	text-align: center;
-	clear: right;
+
 }
 #banner-container #sitename{	 	
 	display: inline-block;	
@@ -106,7 +99,7 @@ footer > section div:last-child{
 	font-family: 'Lobster Two';	
 	text-transform: uppercase;
 	text-shadow: 5px 5px 10px #a66a59;
-	margin-top: 7%;
+	margin-top: 1em;
 
 }
 
@@ -119,7 +112,7 @@ nav#main-menu  a{
 	color: black;
 	font-family: 'Charm';
 	text-transform: capitalize;
-	font-size: 1.4em;
+	font-size: 1em;
 }
 nav#main-menu  a:hover{
 	color: white;
@@ -149,7 +142,7 @@ nav#main-menu ul > li {
 	vertical-align:top;
 }
 nav#main-menu ul > li:not(:last-child) {	
-	padding-right: 2em;
+	padding-right: 1.5em;
 	position: relative;
 }
 nav#main-menu > ul li ul {
