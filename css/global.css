@@ -69,14 +69,7 @@ footer > section div:last-child{
 }
 
 /* *********************************** banner style *****************************************/
-#logo{
 
-	width: 100%;
-	height: auto;
-	margin-top: 2%;
-	
-
-}
 #banner-container{	 
 	overflow: auto;
 	width: 100%;	
@@ -99,7 +92,7 @@ footer > section div:last-child{
 	font-family: 'Lobster Two';	
 	text-transform: uppercase;
 	text-shadow: 5px 5px 10px #a66a59;
-	margin-top: 1em;
+	margin-top: 0.75em;
 
 }
 
