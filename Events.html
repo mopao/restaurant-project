@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Events</title>
+  <link rel="stylesheet" type="text/css" href="css/global.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c03ea9a48c.js" crossorigin="anonymous"></script>
+  <script src="js/jquery-3.5.1.js"></script>
+  <!-- load the footer and the header of the website -->
+  <script src="js/loadFooter.js"></script>
+  <script src="js/loadHeader.js"></script>
+</head>
+
+<body class="open-sans">
+  <!-- Header -->
+  <div id="banner-container">
+    <h1 id="sitename">pizzarium</h1>
+  </div>
+  <div id="menu-container">
+    <nav id="main-menu">
+      <h2 class="hide">Main menu navigation</h2>
+      <ul>
+        <li>
+          <a href="#"> <span class="fas fa-home" id="home-icon"></span></a>
+          <span class="hide">icon for homepage</span>
+        </li>
+        <li><a href="#">About us </a></li>
+        <li><a href="#"> menu </a>
+          <ul>
+            <h4 class="hide">list of pizza menu</h4>
+            <li><a href="#">Pizza</a></li>
+            <li><a href="#">drinks</a></li>
+          </ul>
+        </li>
+        <li><a href="#">specials </a></li>
+        <li><a href="#">locations </a></li>
+        <li><a href="#">Contact us </a></li>
+        <li><a href="#">place your order </a></li>
+        <li id="shopping-cart">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Main content -->
+  <div id="body-container">
+    <main id="body-main">
+      <h1>Events</h1>
+      <p>Our restaurant is happy to host your next event! We can host events with up to 100 guests. Reach out to us to host your next birthday party, corporate event, baby shower, and more! </p>
+      <p> Just fill out the request form below and someone from our team will contact you within 24-48 hours.</p>
+      <h2>Submit a request:</h2>
+      <form id="event-form" action="#" method="get">
+        <label for="f-name">First Name</label>
+        <input type="text" id="f-name" name="f-name">
+        <label for="l-name">Last Name</label>
+        <input type="text" id="l-name" name="l-name">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone">
+        <label for="guests">Approximate Number of Guests</label>
+        <input type="text" id="guests" name="guests">
+        <label for="message">Tell Us About Your Event</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit" name="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <section>
+        <h2 class="hide">important links</h2>
+        <div>
+          <ul>
+            <h3 class="hide">award links</h3>
+            <li><a href="#">gift card</a></li>
+            <li><a href="#">contest</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h3 class="hide">site links</h3>
+            <li><a href="#">contact us</a></li>
+            <li><a href="#">sitemap</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h3 class="hide">informative links</h3>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">events</a></li>
+          </ul>
+        </div>
+      </section>
+      <div id="copyright"> &copy; 2020. </div>
+    </footer>
+  </div>
+</body>
+
+</html>
