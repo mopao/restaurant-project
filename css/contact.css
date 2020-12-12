@@ -1,0 +1,70 @@
+.contact1{
+  color: black;
+    background-color: pink;
+      filter: grayscale(50%);
+   font-family: 'Open Sans', sans;
+  
+  
+}
+.contact2{
+      text-align: center;
+  font-size: 64px;
+  padding-top: 64px;
+    padding-bottom: 64px;
+  
+  }
+
+
+.span5{
+  background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  margin:20px;
+  
+}
+.ja{
+  font-size: 36px;
+  padding-top: 64px;
+    padding-bottom: 64px;
+  margin:40px;
+}
+
+.form1{
+      padding-top: 16px;
+    padding-bottom: 16px;
+  border: 1px solid #ccc;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #808080;
+    width: 90%;
+  margin:40px;
+}
+.button{
+  padding: 8px 16px;
+   margin:40px;
+  border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+      width: 93%;
+  font-family: ;
+  font-size: 36px;
+}
+
+
+
+
+
+
