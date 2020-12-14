@@ -23,55 +23,60 @@ body{
 	max-width: 1200px;
 	font-size: 1.1em;
 }
+
+.page-container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
 /* **********************footer style **********************************************/
 footer{
 	clear: both;		
 	position: relative;
-	/* top:25em; to be commented */
+	margin-bottom: 1em;
 }
 footer div#copyright{
 	border-top: 2px solid black;
 	background-color: #ddd8d7;
 	text-align: center;
-	font-size: 0.5em;
+	font-size: 0.8em;
+	height: 1.8em;
 }
-footer section{
+footer > section{
 	background-color: #e8dede;
 	font-size: 0.8em;
 	text-transform: capitalize;
+	width: 100%;
 }
-footer  section div{
-	display: inline-block;
-	width: 31%;
+footer > section >div.page-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
 } 
-footer  section div ul li{
+
+footer > section >div.page-container div  ul {
+	padding: 0px;
+}
+
+footer > section >div.page-container div  ul li{
 	list-style-type: none;
-} 
-footer  section div ul li:not(:last-child){
-	margin-bottom: 0.3em;
-} 
-footer  section div ul li a:hover{
-	color: gray;
 }
-footer  section div ul li a{
+footer > section >div.page-container div  ul li:not(:last-child){
+	margin-bottom: 0.5em;
+}
+
+footer > section >div.page-container div  ul li a{
 	text-decoration: none;
 	color: black;
-} 
-footer > section div:not(:last-child){
-	margin-right: 2%;
 }
-footer > section div:first-child{
-	float: left;
-}
-footer > section div:last-child{
-	float: right;
-	clear: right;
+footer > section >div.page-container div  ul li a:hover{
+	color: gray;
 }
 
 /* *********************************** banner style *****************************************/
 
 #banner-container{	 
-	overflow: auto;
+	overflow: hidden;
 	width: 100%;	
 	background-color: #f2ecea;
 }
@@ -97,7 +102,7 @@ footer > section div:last-child{
 }
 
 /* ***************************** navigatin menu style ***********************************/
-#menu-container{	
+nav#main-menu{	
 	background-color: #ce9586;
 }
 nav#main-menu  a{
@@ -112,7 +117,7 @@ nav#main-menu  a:hover{
 
 
 }
-nav#main-menu > ul {
+nav#main-menu  ul {
 	margin: 0px;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
@@ -126,7 +131,7 @@ li#shopping-cart{
 	position: absolute;
 	right: 0;
 	padding: 0px;
-	margin-right: 0.5em;
+	
 
 }
 nav#main-menu ul > li {
@@ -135,10 +140,11 @@ nav#main-menu ul > li {
 	vertical-align:top;
 }
 nav#main-menu ul > li:not(:last-child) {	
-	padding-right: 1.5em;
+	margin-right: 5%;
+	padding-right: 1em;
 	position: relative;
 }
-nav#main-menu > ul li ul {
+nav#main-menu  ul li ul {
 	background-color: #ce9586;
 	padding:0;
 	position:absolute;
@@ -146,16 +152,16 @@ nav#main-menu > ul li ul {
 	text-align: justify;
 
 }
-nav#main-menu > ul li li{
+nav#main-menu  ul li li{
 	display:block;
 	padding-left:0.4em ; 
 }
-nav#main-menu > ul li li:not(:last-child) {
+nav#main-menu  ul li li:not(:last-child) {
 
 	border-bottom: 2px solid gray;
 
 }
-nav#main-menu > ul li:hover > ul {
+nav#main-menu  ul li:hover > ul {
 	left:0;
 	top:100%;
 	width:200px;

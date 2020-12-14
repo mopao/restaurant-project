@@ -12,12 +12,15 @@ $(document).ready(function(){
  var banner=$("<div></div>").attr("id","banner-container");
  // create the sitename 
  var sitename=$("<h1></h1>").text("pizzarium").attr("id","sitename");
+ //create banner page container
+ var bannerPageContainer= $("<div></div>").addClass("page-container");
  // add the sitename into the banner
- banner.html(sitename);
+ bannerPageContainer.html(sitename);
+ banner.html(bannerPageContainer);
  // add the banner to the header
- header.prepend(banner);
+ header.html(banner);
   // create the menubar
- var divMenubar=$("<div></div>").attr("id","menu-container");
+ var menuContainer=$("<div></div>").addClass("page-container");
  var menubar=$("<nav></nav>").attr("id","main-menu");
  // create menu header and add it to the menu
  var menuHeader=$("<h2></h2>").text("Main menu navigation").addClass("hide");
@@ -49,9 +52,9 @@ $(document).ready(function(){
       var arrSubMenuLink=submenuLink.split("_");
       var sublink="";
       for(var j=0; j<arrSubMenuLink.length;j++){
-        link+=arrSubMenuLink[j]+" ";
+        sublink+=arrSubMenuLink[j]+" ";
       }
-      subElt.append($("<a></a>").text(link).attr("href",submenuLink+".html"));
+      subElt.append($("<a></a>").text(sublink).attr("href",submenuLink+".html"));
     sublistMenu.append(subElt);
    }
    elt.append(sublistMenu);
@@ -66,10 +69,11 @@ $(document).ready(function(){
  cart.html($("<i></i>").addClass("fas fa-shopping-cart"));
  cartElt.html(cart);
  listMenu.append(cartElt);
- menubar.html(listMenu);
- divMenubar.html(menubar);
+ menuContainer.html(listMenu);
+ menubar.html(menuContainer);
+ 
  // add the menubar into the header
- header.append(divMenubar);
+ header.append(menubar);
  
  
   // add the header to the page's body
