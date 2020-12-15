@@ -1,14 +1,11 @@
-head {
-    display: none;
+
+
+
+ul li a#menu{
+  color: white;
 }
 
-body {
-	display: block;
-	margin: 0;
-	font-size: 16px;
-	font-family: "Times New Roman", Times, serif;
-	background: pink;
-}
+
 
 h1 {
 	font-weight: 900;
@@ -31,12 +28,7 @@ h1::after {  /* This is the underline */
 	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
-.container {
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 .text-center {
     text-align: center;
@@ -70,14 +62,14 @@ h1::after {  /* This is the underline */
     padding: 0 0 10px 0;
 	margin: 3px;
 	border-radius: 1px;
-	background-color: rgba(234, 235, 237, 0.9);
+	background-color: #f2ecea;
 }
 
 .menu-item>h3 {
 	color: #fff;
 	padding: 0 0 0 60px;
 	margin: 0 auto;
-	background-color: rgba(240, 31, 20, .8);
+	background-color: #ce9586;
 	text-shadow: 1.5px 1.5px 5px #000, 1px 1px 5px #000;
 }
 
@@ -100,7 +92,7 @@ h1::after {  /* This is the underline */
 	width: 100%;
 	display: block;
 	text-decoration: none;
-	background-color: rgba(42, 76, 132, .9);
+	background-color: #ce9586;
 	text-shadow: 1.5px 1.5px 5px #000, 1px 1px 5px #000;
 	border-radius: 1px;
 	margin: 1% 3px;
@@ -121,7 +113,7 @@ h1::after {  /* This is the underline */
 	font: 18px;
 	font-weight: bold;
 	color: #fff;
-	background-color: rgba(240, 31, 20, .7);
+	background-color: #a66a59;
 	box-shadow: 0 0 0 2px rgba(0,0,0,.3);
 }
 

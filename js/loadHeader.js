@@ -3,7 +3,7 @@ $(document).ready(function(){
  /***************build the header***********************************************/
  // declare variables
  
- var arrMenulinks=["about_us","menu","specials","locations","place_your_order"];
+ var arrMenulinks=["about_us","menu","events","locations","place_your_order"];
  var arrSubMenulinks=["vegetarian_pizza", "meat_pizza", "sides","drinks", "dessert"];
 // create the header
   var header= $("<header></header>");
@@ -42,7 +42,12 @@ $(document).ready(function(){
       for(var j=0; j<arrMenuLink.length;j++){
         link+=arrMenuLink[j]+" ";
       }
-      elt.append($("<a></a>").text(link).attr("href",menuLink+".html"));
+      if(menuLink === "place_your_order"){
+       elt.append($("<a></a>").text(link).attr("href","menu.html"));
+      }
+      else{
+       elt.append($("<a></a>").text(link).attr("href",menuLink+".html").attr("id",menuLink));
+      }
   // add submenu of the menu link
   if(menuLink==="menu"){
    var sublistMenu=$("<ul></ul>");
@@ -54,7 +59,7 @@ $(document).ready(function(){
       for(var j=0; j<arrSubMenuLink.length;j++){
         sublink+=arrSubMenuLink[j]+" ";
       }
-      subElt.append($("<a></a>").text(sublink).attr("href",submenuLink+".html"));
+      subElt.append($("<a></a>").text(sublink).attr("href","menu.html"));
     sublistMenu.append(subElt);
    }
    elt.append(sublistMenu);

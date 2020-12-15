@@ -8,6 +8,11 @@
 	box-sizing: border-box;
 }
 
+*::before,*::after
+{
+	box-sizing: inherit;
+}
+
 a{
 	text-decoration: none;	
 }
@@ -51,7 +56,7 @@ footer > section >div.page-container{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	
+
 } 
 
 footer > section >div.page-container div  ul {
@@ -131,7 +136,7 @@ li#shopping-cart{
 	position: absolute;
 	right: 0;
 	padding: 0px;
-	
+
 
 }
 nav#main-menu ul > li {

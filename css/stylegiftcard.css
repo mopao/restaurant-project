@@ -1,20 +1,13 @@
 
-html{
 
-    box-sizing:border-box;
-    }
-     *::before,*::after
-    {
-        box-sizing: inherit;
-    }
-    .page-size{
-        max-width:1200px; 
+    .page-size{        
         margin:0 auto;
+        margin-bottom: 1em;
+        float: left;
+        width: 100%;
+        
     }
-    body{
-     background-color:#f2ecea;
-     font-family: 'Open Sans', sans-serif;
- }   
+    
     
 h1,h2,h3{
     font-family: 'Lobster Two', cursive;
@@ -56,13 +49,14 @@ a.buy-button:hover{
     width: 48.5%;
     border:#a66a59 dashed ;
     height:400px;
-    
+    background-color:#f2ecea;
 }
 .right-side{
     float:right;
     width:48.5%;
     height:400px;
     border: #a66a59 dashed;
+    background-color:#f2ecea;
 }
 .gift-img{
     padding-bottom:1em;
@@ -83,7 +77,8 @@ form{
     background-color:#faf8f9;
     text-align: center;
     position: relative;
-    border:solid #a66a59 1px;
+   
+    margin-bottom: 0px;
 
     
 }

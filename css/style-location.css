@@ -1,22 +1,12 @@
+ul li a#locations{
+  color: white;
+}
 
-html{
-
-    box-sizing:border-box;
-    }
-     *::before,*::after
-    {
-        box-sizing: inherit;
-    }
     .page-size{
         max-width:1200px; 
-        height: auto;
-        border:solid #f39372  1px;
-    
+        height: auto;   
     }
-    body{
-     background-color:#f2ecea;
-     font-family: 'Open Sans', sans-serif;
-    }   
+      
     
 h1,h2,h3{
     font-family: 'Lobster Two', cursive;
@@ -43,9 +33,10 @@ h1,h2,h3{
   width:50%;
   margin: 0;
   padding: 0;
-  border:solid green 1px;
+  border:solid #f39372 1px;
   margin-top:10px;
   margin-left:300px;
+    margin-bottom: 2em;
 
 }
 #dir{

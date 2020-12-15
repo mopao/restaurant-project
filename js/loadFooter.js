@@ -5,7 +5,7 @@ $(document).ready(function(){
 
   //declare variables
   var footer= $("<footer></footer>");
-  var links=[["gift_card","contest"],["contact_us","site_map"], ["careers","events"]];
+  var links=[["gift_card"],["site_map"],["contact_us"], ["events"]];
   var arrLinks;
 
   // build the links section of the footer;

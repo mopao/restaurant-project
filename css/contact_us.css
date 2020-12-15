@@ -1,18 +1,23 @@
-body {
-  background: #f1f1f1;
-  margin-top: 2rem;
+ul li a#contact_us{
+  color: white;
 }
 
+.contactForm-wrapper{
+  background: #f1f1f1;
+  padding: 2rem 0rem;
+  
+}
+.contactForm-wrapper p{margin-bottom: 0px;}
 .contactForm {
   border-radius: 4px;
   box-sizing: border-box;
-  margin: auto;
+  margin: auto;  
   max-width: 450px;
   overflow: hidden;
   /*SUCESS STYLES*/
 }
 .contactForm .formHeader {
-  background: #54428E;
+  background: #a66a59;
   border-bottom: 4px solid #463776;
   color: #fff;
   text-align: center;
@@ -90,7 +95,7 @@ body {
   padding-left: 50px;
 }
 .contactForm .submitBtn {
-  background: #54428E;
+  background: #a66a59;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -104,7 +109,7 @@ body {
   transition: background 0.5s ease;
 }
 .contactForm .submitBtn:hover {
-  background: #765cc7;
+  background: #ce9586;
 }
 .contactForm.success {
   overflow: hidden;
