@@ -1,9 +1,11 @@
- ul li a#about_us{
-  color: white;
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2ecea;
 }
 
-h1, h2 {
+h2 {
   font-family: 'Lobster', cursive;
+  font-size: 2em;
 }
 
 .image-style {
