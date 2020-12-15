@@ -1,0 +1,32 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+   background-color:#f2ecea;
+}
+h1, h2{
+  font-family: 'Lobster', cursive;
+}
+.label-input{
+margin-bottom: 1em;
+}
+.form{
+  width:400px;
+  text-align: left;
+  margin:0 auto;
+
+}
+.form input,textarea{
+  width:100%;
+}
+
+
+#thanks_msg{
+  display: none;
+}
+.page-wrapper{
+  text-align: center;
+  margin: 1.5em;
+}
+#event-para{
+  text-align: left;
+}
