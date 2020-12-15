@@ -7,23 +7,23 @@ ul li a#menu{
 
 
 
-h1 {
+h2 {
 	font-weight: 900;
 	font-size: 30px;
 	font-variant: small-caps;
 	margin-top: 10px;
 	margin-bottom: 0px;
 	text-align: center;
-	color: #fff;
+	color: #000000;
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
-h1::after {  /* This is the underline */
+h2::after {  /* This is the underline */
 	display: block;
 	content: "";
 	height: 2px;
 	width: 115px;
-	background: #fff;
+	background: #000000;
 	margin: 5px auto 25px;
 	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
