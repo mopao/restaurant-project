@@ -42,16 +42,29 @@ function getCrust(runningTotal,text1,text2) {
 	}
 	runningTotal = (runningTotal + crustTotal);
 	text2 = text2 + crustTotal + "<br>";
-	getSauce(runningTotal,text1,text2);
+	getSide(runningTotal,text1,text2);
 };
 
-function getSauce(runningTotal,text1,text2) {
-	var selectedSauce;
-	var sauceArray = document.getElementsByClassName("sauce");
-	for (var j = 0; j < sauceArray.length; j++) {
-		if (sauceArray[j].checked) {
-			selectedSauce = sauceArray[j].value;
-			text1 = text1 + selectedSauce + "<br>";
+function getSide(runningTotal,text1,text2) {
+	var selectedSide;
+	var sideArray = document.getElementsByClassName("side");
+	for (var j = 0; j < sideArray.length; j++) {
+		if (sideArray[j].checked) {
+			selectedSide = sideArray[j].value;
+			text1 = text1 + selectedSide + "<br>";
+		}
+	}
+	text2 = text2 + 0 + "<br>";
+	getDrink(runningTotal,text1,text2);
+};
+
+function getDrink(runningTotal,text1,text2) {
+	var selectedDrink;
+	var drinkArray = document.getElementsByClassName("drink");
+	for (var j = 0; j < drinkArray.length; j++) {
+		if (drinkArray[j].checked) {
+			selectedDrink = drinkArray[j].value;
+			text1 = text1 + selectedDrink + "<br>";
 		}
 	}
 	text2 = text2 + 0 + "<br>";
@@ -137,6 +150,7 @@ function getVeggie(runningTotal,text1,text2) {
 				veggieCount = veggieCount - 1;
 			}
 	}
+	
 	document.getElementById("cart").style.opacity=1;
 	document.getElementById("showText1").innerHTML=text1;
 	document.getElementById("showText2").innerHTML=text2;
