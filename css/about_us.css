@@ -1,8 +1,9 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #f2ecea;
+body {  
+   text-align: center; 
 }
-
+body > div.page-container{
+  margin-bottom: 1em;
+}
 h2 {
   font-family: 'Lobster', cursive;
   font-size: 2em;
@@ -11,12 +12,6 @@ h2 {
 .image-style {
   width: 300px;
   height: auto;
-}
-
-.page-wrapper {
-  text-align: center;
-  margin: 1.5em;
-  max-width: 1200px;
 }
 
 .about-para {
