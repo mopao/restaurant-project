@@ -5,8 +5,9 @@
    margin: 2em auto;
 }
 .sitemap-title-wrapper > h2{
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 2em;
+  font-family: 'Lobster', cursive;
  
 }
 ul#sitemap-list{
@@ -20,4 +21,8 @@ ul#sitemap-list li > a{
 
 ul>li{
    list-style-type: none;
+}
+
+main{
+   height: 35em;
 }

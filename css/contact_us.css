@@ -26,8 +26,9 @@
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.contactForm .formHeader h1 {
+.contactForm .formHeader h2 {
   line-height: 1em;
+  
 }
 .contactForm .formBody {
   background: #fff;
