@@ -30,10 +30,15 @@ form textarea{
 #thanks_msg{
   display: none;
 }
-body > div.page-container{
+main > div.page-container{
   text-align: center;
   margin: 1.5em;
+  
 }
 #event-para{
   text-align: left;
+}
+
+main{
+  background-color: #f2ecea;
 }
