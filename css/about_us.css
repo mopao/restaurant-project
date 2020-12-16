@@ -1,8 +1,7 @@
-body {  
-   text-align: center; 
-}
+
 body > div.page-container{
   margin-bottom: 1em;
+  text-align: center; 
 }
 h2 {
   font-family: 'Lobster', cursive;
